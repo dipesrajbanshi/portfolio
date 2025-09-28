@@ -437,40 +437,29 @@ body {
 /* Skills Section */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
 }
 
 .skill-item {
     text-align: center;
-    padding: 35px 25px;
+    padding: 25px 20px;
     background: linear-gradient(135deg, #f0f8ff 0%, #e3f2fd 100%);
-    border-radius: 15px;
+    border-radius: 12px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid rgba(135, 206, 235, 0.3);
 }
 
 .skill-item:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(135, 206, 235, 0.2);
-}
-
-.skill-icon {
-    font-size: 3rem;
-    margin-bottom: 20px;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(135, 206, 235, 0.15);
 }
 
 .skill-name {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #2c3e50;
-    margin-bottom: 10px;
-}
-
-.skill-level {
-    color: #3498db;
-    font-weight: 600;
-    font-size: 1rem;
+    margin: 0;
 }
 
 /* Languages Section */
